@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: ;
+}
+
+body,
+html {
+  font-family: Averta;
+}
+
+header {
+  background-color: #fffafa;
+}
+
+#logo-container {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#learn-container {
+    background-color: #fffafa;
+    text-align: center;   
+    max-width: 30%;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+
+
+@media (min-width: 375px) {
+    #learn-container {
+        max-width: 80%;
+    }
+}
