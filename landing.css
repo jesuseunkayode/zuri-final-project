@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Roboto&display=swap");
 
+@import url("http://fonts.cdnfonts.com/css/averta-standard");
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -8,7 +10,7 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Averta Standard", sans-serif;
 }
 
 #logo-container {
@@ -39,7 +41,7 @@ h2 {
   color: #514949;
   line-height: 3rem;
   font-size: 2rem;
-  font-family: Roboto, sans-serif;
+  font-family: "Averta Standard", sans-serif;
 }
 
 .learn-text p {
@@ -51,7 +53,7 @@ h2 {
   font-weight: 400;
   line-height: 1.5rem;
   padding-top: 1.5rem;
-  font-family: Roboto, sans-serif;
+  font-family: "Averta Standard", sans-serif;
 }
 
 .btn-div {
@@ -71,7 +73,7 @@ h2 {
   border: none;
   width: 15rem;
   height: 3rem;
-  font-family: Roboto, sans-serif;
+  font-family: "Averta Standard", sans-serif;
 }
 
 .need-experience {
@@ -84,7 +86,7 @@ h2 {
   width: 15rem;
   height: 3rem;
   margin-left: 1.5rem;
-  font-family: Roboto, sans-serif;
+  font-family: "Averta Standard", sans-serif;
 }
 
 .need-experience:hover {
@@ -143,7 +145,7 @@ h2 {
 .training-text {
   padding: 2.8rem 0 2rem 0;
   color: #514949;
-  font-family: Roboto;
+  font-family: "Averta Standard", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
@@ -200,6 +202,13 @@ h2 {
   color: #e7332b;
 }
 
+.blog,
+.store {
+  color: #e7332b;
+  text-align: center;
+  font-size: 3rem;
+}
+
 footer {
   display: flex;
   border-top: 2px solid lightgray;
@@ -214,7 +223,7 @@ footer {
 footer p {
   margin: 0 auto;
   color: #514949;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .footer-zuri {
@@ -258,8 +267,24 @@ footer p {
   }
 
   footer {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+  }
+
+  .email {
+    text-align: center;
+  }
+
+  .lagos {
+    display: block;
+    text-align: center;
+  }
+
+  .blog,
+  .store {
+    color: #e7332b;
+    text-align: center;
+    font-size: 3rem;
   }
 }
 
