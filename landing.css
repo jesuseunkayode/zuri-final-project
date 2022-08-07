@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Roboto&display=swap");
+@import url("http://fonts.cdnfonts.com/css/graphik");
 
 @import url("http://fonts.cdnfonts.com/css/averta-standard");
 
@@ -15,13 +15,15 @@ body {
 
 #logo-container {
   text-align: center;
-  background-color: #fffafa;
+  background: url("https://zuri.team/img/hero-bg.svg");
+  background-repeat: no-repeat;
   padding-top: 4.5rem;
   margin-bottom: 2rem;
 }
 
 #learn-container {
-  background-color: #fffafa;
+  background: url("https://zuri.team/img/hero-bg.svg");
+  background-repeat: no-repeat;
   margin: 0 auto;
   width: 100%;
   padding-bottom: 17rem;
@@ -118,11 +120,30 @@ h2 {
   padding: 4rem 4rem 2rem 2rem;
 }
 
+.left-img {
+  position: absolute;
+  top: 64rem;
+  left: -1rem;
+  max-width: 30%;
+  height: auto;
+  z-index: -1;
+}
+
+.right-img {
+  position: absolute;
+  top: 64rem;
+  right: -1rem;
+  max-width: 30%;
+  height: auto;
+  z-index: -1;
+}
+
 .cater {
   margin-top: 10rem;
 }
 
 .cater-title {
+  font-family: "Averta Standard", sans-serif;
   color: #e7332b;
   font-size: 0.875rem;
   font-weight: 500;
@@ -233,6 +254,8 @@ footer p {
 @media (min-width: 230px) and (max-width: 1140px) {
   #learn-container {
     width: 100%;
+    background: url("https://zuri.team/img/hero-bg.svg");
+    background-repeat: repeat;
   }
 
   .cater-section {
@@ -286,6 +309,14 @@ footer p {
     text-align: center;
     font-size: 3rem;
   }
+
+  .left-img {
+    display: none;
+  }
+
+  .right-img {
+    display: none;
+  }
 }
 
 @media (min-width: 250px) and (max-width: 1000px) {
@@ -307,6 +338,14 @@ footer p {
   .address {
     text-align: justify;
   }
+
+  .left-img {
+    display: none;
+  }
+
+  .right-img {
+    display: none;
+  }
 }
 
 @media (max-width: 375px) {
@@ -317,5 +356,13 @@ footer p {
   .industry {
     margin-top: 2rem;
     margin-left: 0px;
+  }
+
+  .left-img {
+    display: none;
+  }
+
+  .right-img {
+    display: none;
   }
 }

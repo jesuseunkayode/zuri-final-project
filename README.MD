@@ -33,10 +33,10 @@ color at the footer: #fadad9, #a8a4a4
 
 ### Font
 
-- Family: [Averta, sans-serif;](https://fonts.google.com/specimen/Lexend+Deca)
+- Family: [Averta, sans-serif;](https://www.cdnfonts.com/averta-standard.font)
 - Weights: 800
 
-- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Family: [Graphik Display](https://www.cdnfonts.com/graphik.font)
 - Weights: 700
 
 Size
