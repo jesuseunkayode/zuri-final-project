@@ -129,6 +129,7 @@ li {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-top: 4rem;
 }
 
 .trusted-div {
@@ -154,7 +155,7 @@ li {
 }
 
 .trusted-img-div {
-  max-width: 45%;
+  width: 45%;
   padding-left: 12rem;
   padding-top: 5rem;
 }
@@ -169,18 +170,17 @@ li {
 }
 
 .thick {
-    position: absolute;
-    top: 16.2rem;
-    left: 32.3rem;
+  position: absolute;
+  top: 16.2rem;
+  left: 32.3rem;
 }
 
 .line {
-    position: absolute;
-    right: 0rem;
-    top: 22rem;
-    z-index: -1;
+  position: absolute;
+  right: 0rem;
+  top: 22rem;
+  z-index: -1;
 }
-
 
 .hire-btn {
   font-family: "Graphik", sans-serif;
@@ -224,14 +224,11 @@ li {
     width: 55%;
     right: 20rem;
   }
-  
+
   .hire-join-div {
-       flex-direction: column;
+    flex-direction: column;
   }
 }
-
-
-
 
 @media (min-width: 376px) and (max-width: 800px) {
   .hire-link {
@@ -244,7 +241,198 @@ li {
 }
 
 @media (min-width: 676px) and (max-width: 1000px) {
-    .hire-join-div {
-        flex-direction: column;
+  .hire-join-div {
+    flex-direction: column;
+  }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .hire-join-div {
+    flex-direction: column;
+  }
+
+  .trusted-img-div {
+    width: 80%;
+    padding-left: 0rem;
+  }
+
+  .trusted-div {
+    width: 72%;
+  }
+
+  .trusted-div h2 {
+    font-family: "Graphik", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+  }
+
+  .thick {
+    position: absolute;
+    top: 10.9rem;
+    left: 13.5rem;
+  }
+
+  .trusted-div p {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.7rem;
+    font-weight: 400;
+    color: #787878;
+  }
+
+  .hire-btn {
+    width: 40%;
+    height: 2.2rem;
+  }
+
+  .join-btn {
+    width: 52%;
+    height: 2.2rem;
+  }
+
+  .hire-link {
+    font-family: "Graphik", sans-serif;
+    font-weight: 400;
+    width: 90%;
+    padding: 0.5rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .hire-join-div {
+    flex-direction: column;
+  }
+
+  .trusted-img-div {
+    width: 100%;
+  }
+
+  .trusted-div {
+    width: 100%;
+  }
+
+  .trusted-div h2 {
+    font-family: "Graphik", sans-serif;
+    text-align: none;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .hire-join-div {
+    flex-direction: column;
+  }
+
+  .trusted-img-div {
+    width: 100%;
+  }
+}
+
+
+@media(min-width: 414px) and (max-width: 896px) {
+  .thick {
+    position: absolute;
+    top: 10.9rem;
+    left: 14rem;
+  }
+}
+
+@media(min-width: 360px) and (max-width: 740px) {
+  .thick {
+    position: absolute;
+    top: 10.9rem;
+    left: 12.8rem;
+  }
+}
+
+
+@media(min-width: 390px) and (max-width: 670px) {
+  .thick {
+    position: absolute;
+    top: 10.9rem;
+    left: 13.4rem;
+  }
+}
+
+
+@media(min-width: 412px) and (max-width: 915px) {
+  .thick {
+    position: absolute;
+    top: 10.9rem;
+    left: 14rem;
+  }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hire-join-div {
+    flex-direction: column;
+  }
+
+  .trusted-img-div {
+    width: 80%;
+  }
+
+  .hire-link {
+    position: absolute;
+    right: 0;
+    width: 20%;
+   
+  }
+
+}
+
+
+@media(min-width: 820px) and (max-width: 1180px) {
+  .thick {
+    position: absolute;
+    top: 8.9rem;
+    left: 26.6rem;
+  }
+  .trusted-div {
+    width: 90%;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .trusted-img-div {
+    width: 60%;
+    padding-left: 1rem;
+  }
+
+  .trusted-div h2 {
+    font-family: "Graphik", sans-serif;
+    text-align: center;
+  }
+
+  .trusted-div p {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 8rem;
+    padding-right: 5rem;
+    box-sizing: border-box;
+  }
+
+  .hire-btn {
+    margin-left: 8rem;
+  }
+
+   .hire-link {
+     position: absolute;
+     right: 1rem;
+     width: 20%;
+    
    }
 }
+
