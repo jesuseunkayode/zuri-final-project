@@ -171,7 +171,7 @@ li {
 
 .thick {
   position: absolute;
-  top: 16.2rem;
+  top: 19.9rem;
   left: 32.3rem;
 }
 
@@ -211,6 +211,36 @@ li {
   cursor: pointer;
 }
 
+#impact-div {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-one-div {
+  margin-left: 8rem;
+}
+
+.section-one-div h3 {
+  font-family: "Graphik", sans-serif;
+  font-size: 2.5rem;
+  line-height: 3.063rem;
+  font-weight: 600;
+  color: #161617;
+}
+
+.section-two-div {
+  width: 100%;
+  margin-left: 12rem;
+}
+
+.section-two-div img {
+  max-width: 70%;
+  height: auto;
+}
+
+/* css rules for mobile responsiveness */
 @media (max-width: 375px) {
   .links {
     display: none;
@@ -244,9 +274,11 @@ li {
   .hire-join-div {
     flex-direction: column;
   }
+
+  .line {
+    display: none;
+  }
 }
-
-
 
 @media (min-width: 320px) and (max-width: 480px) {
   .hire-join-div {
@@ -300,6 +332,14 @@ li {
     width: 90%;
     padding: 0.5rem;
   }
+
+  .line {
+    display: none;
+  }
+
+  #impact-div {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -322,9 +362,15 @@ li {
     font-size: 2rem;
     line-height: 2.4rem;
   }
+
+  .line {
+    display: none;
+  }
+
+  #impact-div {
+    flex-direction: column;
+  }
 }
-
-
 
 @media (min-width: 1025px) and (max-width: 1200px) {
   .hire-join-div {
@@ -336,42 +382,62 @@ li {
   }
 }
 
-
-@media(min-width: 414px) and (max-width: 896px) {
+@media (min-width: 414px) and (max-width: 896px) {
   .thick {
     position: absolute;
     top: 10.9rem;
     left: 14rem;
   }
-}
 
-@media(min-width: 360px) and (max-width: 740px) {
-  .thick {
-    position: absolute;
-    top: 10.9rem;
-    left: 12.8rem;
+  .line {
+    display: none;
   }
 }
 
+@media (min-width: 360px) and (max-width: 740px) {
+  .thick {
+    position: absolute;
+    top: 12.9rem;
+    left: 8.8rem;
+  }
 
-@media(min-width: 390px) and (max-width: 670px) {
+  .line {
+    display: none;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+  .thick {
+    position: absolute;
+    top: 10.5rem;
+    left: 13.3rem;
+  }
+  .line {
+    display: none;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 670px) {
   .thick {
     position: absolute;
     top: 10.9rem;
     left: 13.4rem;
   }
-}
-
-
-@media(min-width: 412px) and (max-width: 915px) {
-  .thick {
-    position: absolute;
-    top: 10.9rem;
-    left: 14rem;
+  .line {
+    display: none;
   }
 }
 
-
+@media (min-width: 412px) and (max-width: 915px) {
+  .thick {
+    position: absolute;
+    top: 10.7rem;
+    left: 14.5rem;
+  }
+  .line {
+    display: none;
+  }
+}
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .hire-join-div {
@@ -385,18 +451,51 @@ li {
   .hire-link {
     position: absolute;
     right: 0;
-    width: 20%;
-   
+    width: 5%;
   }
-
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hire-link {
+    position: absolute;
+    right: 1rem;
+    width: 20%;
+  }
 
-@media(min-width: 820px) and (max-width: 1180px) {
+  .trusted-div p {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 8rem;
+    padding-right: 5rem;
+    box-sizing: border-box;
+  }
+
+  .trusted-div h2 {
+    font-family: "Graphik", sans-serif;
+    text-align: center;
+  }
+
+  .hire-btn {
+    margin-left: 8rem;
+  }
+
+  .trusted-img-div {
+    width: 70%;
+    padding-left: 2rem;
+  }
+
+  .thick {
+    position: absolute;
+    top: 7.9rem;
+    left: 22.6rem;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1180px) {
   .thick {
     position: absolute;
     top: 8.9rem;
-    left: 26.6rem;
+    left: 27.4rem;
   }
   .trusted-div {
     width: 90%;
@@ -428,11 +527,135 @@ li {
     margin-left: 8rem;
   }
 
-   .hire-link {
-     position: absolute;
-     right: 1rem;
-     width: 20%;
-    
-   }
+  .hire-link {
+    position: absolute;
+    right: 1rem;
+    width: 20%;
+  }
 }
 
+@media (width: 912px) {
+  .thick {
+    position: absolute;
+    top: 8.9rem;
+    left: 30rem;
+  }
+  .line {
+    display: none;
+  }
+}
+
+@media (width: 540px) {
+  .thick {
+    position: absolute;
+    top: 8.4rem;
+    left: 19.2rem;
+  }
+
+  .trusted-div h2 {
+    font-family: "Graphik", sans-serif;
+    text-align: center;
+  }
+
+  .trusted-div p {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 4rem;
+    padding-right: 2rem;
+    box-sizing: border-box;
+  }
+
+  .hire-btn {
+    margin-left: 6rem;
+  }
+
+  .trusted-img-div {
+    width: 80%;
+    padding-left: 1rem;
+  }
+
+  .hire-link {
+    position: absolute;
+    right: 2rem;
+    width: 20%;
+  }
+  .line {
+    display: none;
+  }
+}
+
+@media (width: 280px) {
+  .thick {
+    position: absolute;
+    top: 14rem;
+    left: 6rem;
+  }
+
+  .trusted-div h2 {
+    font-family: "Graphik", sans-serif;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 3rem;
+  }
+
+  .trusted-div p {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    box-sizing: border-box;
+    line-height: 2rem;
+  }
+
+  .trusted-div {
+    width: 90%;
+  }
+
+  .hire-btn {
+    margin-left: 0;
+    width: 40%;
+    height: 2.3rem;
+  }
+
+  .hire-link {
+    position: absolute;
+    right: 0.4rem;
+    width: 40%;
+  }
+
+  .join-btn {
+    width: 50%;
+    height: 2.2rem;
+  }
+  .line {
+    display: none;
+  }
+}
+
+@media (width: 392px) {
+  .thick {
+    position: absolute;
+    top: 11rem;
+    left: 14rem;
+  }
+  .line {
+    display: none;
+  }
+}
+
+@media (width: 1024px) {
+  .thick {
+    position: absolute;
+    top: 8.5rem;
+    left: 33.6rem;
+  }
+}
+
+@media (width: 1280px) {
+  .thick {
+    position: absolute;
+    top: 20rem;
+    left: 8.5rem;
+  }
+}
