@@ -214,30 +214,55 @@ li {
 #impact-div {
   display: flex;
   margin-top: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   justify-content: center;
   align-items: center;
+  background: url("https://talent.zuri.team/static/media/bgsection2.063bd869082548bafa74.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 .section-one-div {
-  margin-left: 8rem;
+  margin-left: 5rem;
 }
 
 .section-one-div h3 {
   font-family: "Graphik", sans-serif;
-  font-size: 2.5rem;
-  line-height: 3.063rem;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
   font-weight: 600;
   color: #161617;
 }
 
+.section-one-div p {
+  font-family: "Graphik", sans-serif;
+  font-size: 1.188rem;
+  line-height: 1rem;
+  padding-top: 1em;
+}
+
 .section-two-div {
   width: 100%;
-  margin-left: 12rem;
+  margin-left: 8rem;
 }
 
 .section-two-div img {
-  max-width: 70%;
+  max-width: 80%;
   height: auto;
+  padding-left: 7.5rem;
+}
+
+
+.countries-logo {
+   margin-top: 2rem;
+}
+
+.countries-logo img {
+  background-color: white;
+  margin: 0.5rem;
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
 }
 
 /* css rules for mobile responsiveness */
