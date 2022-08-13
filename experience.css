@@ -287,8 +287,7 @@ li {
   color: #e7332b;
 }
 
-.skill-heading,
-.talent-heading {
+.skill-heading {
   font-family: "Graphik", sans-serif;
   font-size: 2.5rem;
   line-height: 3.063rem;
@@ -297,8 +296,18 @@ li {
   padding-top: 5rem;
   padding-left: 7rem;
 }
-.skill-talent-div,
-.talent-work-div {
+
+.talent-heading {
+  font-family: "Graphik", sans-serif;
+  font-size: 2.5rem;
+  line-height: 3.063rem;
+  color: #161617;
+  width: 43%;
+  padding-top: 1rem;
+  padding-left: 7rem;
+}
+
+.skill-talent-div {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -306,8 +315,15 @@ li {
   margin-top: 2rem;
 }
 
-.skill,
-.talent-work {
+.talent-work-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 5rem;
+  margin-top: 0.2rem;
+}
+
+.skill {
   font-family: "Graphik", sans-serif;
   font-size: 1.125rem;
   line-height: 2.063rem;
@@ -316,8 +332,27 @@ li {
   width: 16%;
   background-color: #ffffff;
   color: #787878;
-  margin-bottom: 20rem;
+  margin-bottom: 3rem;
   padding-top: 0.5rem;
+  margin-left: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 8px 30px hsla(0, 0%, 48%, 0.16) !important;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.talent-work {
+  font-family: "Graphik", sans-serif;
+  font-size: 1.125rem;
+  line-height: 2.063rem;
+  text-align: center;
+  height: 3rem;
+  background-color: #ffffff;
+  color: #787878;
+  margin-bottom: 5rem;
+  padding-top: 0.5rem;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
   margin-left: 2rem;
   border-radius: 5px;
   box-shadow: 0 8px 30px hsla(0, 0%, 48%, 0.16) !important;
