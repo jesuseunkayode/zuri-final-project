@@ -368,6 +368,104 @@ li {
   right: 0;
 }
 
+.main-why-hire-container {
+  background-color: #fff8e5;
+}
+
+.hire-talent-title {
+  font-family: "Graphik", sans-serif;
+  color: #161617;
+  padding: 6rem 0 4rem 0;
+  font-weight: 700;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 3.063rem;
+}
+
+#why-hire-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hire-item {
+  flex-basis: 28%;
+  height: 17.5rem;
+  background-color: #ffffff;
+  margin: 0.6rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.hire-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2.9rem;
+  padding-bottom: 1rem;
+}
+
+.hire-item p {
+  font-family: "Graphik", sans-serif;
+  font-size: 1.063rem;
+  font-style: normal;
+  color: #787878;
+  font-weight: 400;
+  line-height: 1.375rem;
+  text-align: center;
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+}
+
+.why-hire-button {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.hire-talent-btn {
+  font-family: "Graphik", sans-serif;
+  font-size: 1rem;
+  line-height: 1.188rem;
+  font-weight: 400;
+  width: 20%;
+  height: 2.4rem;
+  color: #ffffff;
+  background-color: #e7332b;
+  border: none;
+  border-bottom-right-radius: 0.5rem;
+  cursor: pointer;
+}
+.join-talent-pool-btn {
+  font-family: "Graphik", sans-serif;
+  font-size: 1rem;
+  line-height: 1.188rem;
+  font-weight: 400;
+  width: 20%;
+  height: 2.4rem;
+  margin-left: 1rem;
+  background-color: #514949;
+  border-bottom-right-radius: 0.5rem;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #161617;
+  color: #ffffff;
+}
+
+.zuri-copyright-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+   margin: 1rem;
+}
+
+
 /* css rules for mobile responsiveness */
 @media (max-width: 375px) {
   .links {
