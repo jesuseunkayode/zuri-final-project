@@ -454,6 +454,14 @@ li {
 footer {
   background-color: #161617;
   color: #ffffff;
+  height: 27vh;
+  width: 100%;
+}
+
+.footer-logo-social-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4rem;
 }
 
 .zuri-copyright-section {
@@ -461,10 +469,17 @@ footer {
   justify-content: space-between;
 }
 
-.copyright {
-   margin: 1rem;
+.logo-social {
+  margin: 0 4rem 2.5rem 4rem;
 }
 
+.copyright {
+  font-family: "Graphik", sans-serif;
+  font-size: 1rem;
+  line-height: 1.188rem;
+  font-weight: 400;
+  margin: 0 4rem 0 4rem;
+}
 
 /* css rules for mobile responsiveness */
 @media (max-width: 375px) {
@@ -493,6 +508,32 @@ footer {
 
   .links {
     display: none;
+  }
+  .footer-logo-social-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+  }
+
+  .zuri-copyright-section {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    height: 45vh;
+  }
+
+  .copyright {
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+
+  .logo-social {
+    margin: 0;
+    padding-bottom: 2rem;
   }
 }
 
