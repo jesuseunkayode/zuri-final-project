@@ -309,8 +309,6 @@ li {
 
 .skill-talent-div {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
   flex-wrap: wrap;
   margin-left: 5rem;
   margin-top: 2rem;
@@ -331,7 +329,7 @@ li {
   line-height: 2.063rem;
   text-align: center;
   height: 3rem;
-  width: 16%;
+  flex-basis: 16%;
   background-color: #ffffff;
   color: #787878;
   margin-bottom: 3rem;
@@ -580,19 +578,71 @@ footer {
   }
 
   .skill-talent-div {
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     margin-left: 0rem;
     margin-top: 2rem;
   }
 
   .skill {
     margin-left: 1rem;
-    flex-grow: 0;
-    flex-shrink: 1;
-    width: 45%;
+    flex-basis: 40%;
+  }
+
+  .talent-heading {
+    font-size: 1.7rem;
+    width: 90%;
+    padding-top: 1rem;
+    padding-left: 3rem;
+  }
+
+  .talent-work-div {
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 0rem;
+    margin-top: 0rem;
+  }
+
+  .talent-work {
+    margin-bottom: 2rem;
+  }
+
+  .skill-line {
+    display: none;
+  }
+
+  .section-two-div {
+    padding-left: 2.5rem;
+  }
+
+  .section-one-div p {
+    margin-left: 1.5rem;
+  }
+
+  .section-one-div h3 {
+    margin-left: 1.5rem;
+  }
+
+  .trusted-img-div {
+    width: 40%;
+    padding-left: 2rem;
+  }
+
+  .trusted-div {
+    text-align: center;
+  }
+
+  .trusted-div p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .hire-link {
+    position:absolute;
+    top: 1;
+    right: 0.5rem;
+    width: 30%;
   }
 }
 
@@ -813,8 +863,8 @@ footer {
 @media (min-width: 412px) and (max-width: 915px) {
   .thick {
     position: absolute;
-    top: 10.7rem;
-    left: 14.5rem;
+    top: 8rem;
+    left: 20.7rem;
   }
   .line {
     display: none;
@@ -1238,5 +1288,12 @@ footer {
 
   .hire-btn {
     margin-left: 6rem;
+  }
+  .footer-logo-social-container {
+    padding-top: 1rem;
+  }
+
+  .reserved {
+     text-align: center;
   }
 }
