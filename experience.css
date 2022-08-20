@@ -72,10 +72,16 @@ li {
   margin: 3rem auto;
   padding: 5rem;
   border-radius: 0.4rem;
+  
 }
 
+/* To do: make sure to resolve the display issue here*/
 .show-div {
   display: block;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+   z-index: 1;
 }
 
 .recurit-div h1 {
@@ -639,7 +645,7 @@ footer {
     padding-right: 1rem;
   }
   .hire-link {
-    position:absolute;
+    position: absolute;
     top: 1;
     right: 0.5rem;
     width: 30%;
@@ -1294,6 +1300,6 @@ footer {
   }
 
   .reserved {
-     text-align: center;
+    text-align: center;
   }
 }
