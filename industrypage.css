@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+html,
+body {
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+.grid-item {
+  background-color: brown;
+  width: 650px;
+  height: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+  "knowledge knowledge knowledge",
+  "training training training",
+  "practice practice practice",
+  "program  program program",
+  "question question question",
+  "struction structure structure";
+   gap: 5px;
+}
+
+
+.knowledge {
+    grid-area: knowledge;
+}
+
+.training {
+    grid-area: training;
+}
+
+.practice {
+    grid-area: practice;
+}
+
+.program {
+    grid-area: program;
+}
+
+.question {
+    grid-area: question;
+}
+
+.structure {
+    grid-area: structure;
+}

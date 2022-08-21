@@ -72,7 +72,6 @@ li {
   margin: 3rem auto;
   padding: 5rem;
   border-radius: 0.4rem;
-  
 }
 
 /* To do: make sure to resolve the display issue here*/
@@ -81,7 +80,7 @@ li {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-   z-index: 1;
+  z-index: 1;
 }
 
 .recurit-div h1 {
@@ -1301,5 +1300,20 @@ footer {
 
   .reserved {
     text-align: center;
+  }
+}
+
+@media (width: 520px) {
+  footer {
+    background-color: #161617;
+    color: #ffffff;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .thick {
+    position: absolute;
+    top: 8rem;
+    left: 22rem;
   }
 }
